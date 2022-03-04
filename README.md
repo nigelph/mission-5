@@ -5,6 +5,7 @@ This is a collaborative project of two between Nigel Phan (Developer) and Stephe
 
 **Technologies**
 
+
 **Frontend**
 -HTML
 -CSS
