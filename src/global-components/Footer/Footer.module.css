@@ -1,0 +1,7 @@
+#footer-container {
+  display: flex;
+  margin-top: auto;
+  background-color: #363636;
+  color: white;
+  padding: 20px;
+}
