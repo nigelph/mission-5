@@ -1,0 +1,32 @@
+/* Parent container which holds the unordered list of links */
+#nav-container {
+  display: flex;
+  height: 3.5rem;
+  background-color: #0076be;
+}
+
+/* Styling for the unordered list */
+#nav-list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+
+/* Styling for the LINKS INSIDE the unordered list */
+#nav-list li {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#nav-list li:hover {
+  cursor: pointer;
+  background-color: #004a86;
+}
