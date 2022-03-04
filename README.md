@@ -1,26 +1,26 @@
 # MissionReadyHQ: Mission 5
 
-**Description:**
-This is a collaborative project of two between Nigel Phan (Developer) and Stephen Zhang (UX Designer). The design of the website and user workflow was created and designed by Stephen and developed by Nigel in a "mission" to understand how UX Designers and Software developers work together in teams and how they help each other to succeed in their roles.
+#### Description: ####
+This is a collaborative project of two between Nigel Phan (Developer) and Stephen Zhang (UX Designer). The design of the website and user workflow was created and designed by Stephen and developed by Nigel in a "mission" to understand how UX Designers and Software developers work together and how they help each other to succeed in their roles.
 
-**Technologies**
--
+## Technologies Used ##
 
+### Frontend ###
+* HTML
+* CSS
+* JavaScript
+* ReactJS
 
+### Backend ###
+* test
 
-**Frontend**
--HTML
--CSS
--JavaScript
--ReactJS
+## Continuous Integration Pipeline ##
 
-**Backend**
--
--
+### CI/CD Pipeline ###
+* Circle CI
 
-**CI/CD Pipeline**
--Circle CI
+### Static Code Anaylysis ###
+* Snyk IO
 
-
-**Cloud Platform**
--IBM Cloud
+### Cloud Platform ###
+* IBM Cloud
