@@ -1,6 +1,6 @@
 version: 2.10
-# orbs:
-#   snyk: snyk/snyk@1.1.2
+orbs:
+  snyk: snyk/snyk@1.1.2
 jobs:
   build:
     docker:
@@ -11,5 +11,5 @@ jobs:
       - run: node --version
       - run: npm install
       - run: npm test
-      # - snyk/scan:
-      #     fail-on-issues: true
+      - snyk/scan:
+          fail-on-issues: true
