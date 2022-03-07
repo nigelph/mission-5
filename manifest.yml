@@ -1,7 +1,8 @@
 applications:
   - name: pipeline
+    path: build/
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     random-route: true
-    memory: 1024M
+    memory: 254M
     env:
       FORCE_HTTPS: true
