@@ -12,4 +12,4 @@ jobs:
       - run: npm install
       # - run: npm test
       - snyk/scan:
-          fail-on-issues: true
+          fail-on-issues: false
