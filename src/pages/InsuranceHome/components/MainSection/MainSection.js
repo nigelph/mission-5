@@ -1,12 +1,11 @@
 import React from 'react'
 import style from './MainSection.module.css'
 import image from '../../../../assets/images/image64.jpg'
-import arrow from '../../../../assets/images/Vector.jpg'
 
 function MainSection() {
     return (
         <div id={style['main-section-container']}>
-            <img src={image} />
+            <img src={image} alt="driving" />
             <div id={style['main-section-content']}>
                 <div className={style['content-box']}>
                     <div id={style['title-heading']}>

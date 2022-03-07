@@ -16,7 +16,7 @@ function Header() {
                 </div>
                 {/* TODO: Right side Details  */}
                 <div id={style['header-extra-details']}>
-                    <p><a href=''>Login </a>OR<a href=''> Register </a></p>
+                    <p><a href='https://google.com'>Login </a>OR<a href=''> Register </a></p>
 
                     <p>0800 887 637</p>
                     <p>Find Us</p>
