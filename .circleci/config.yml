@@ -4,12 +4,11 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/node:16.13.2
+      - image: cimg/node:16.14.0
 
     steps:
       - checkout
       - run: node --version
       - run: npm install
-      # - run: npm test
       - snyk/scan:
           fail-on-issues: false

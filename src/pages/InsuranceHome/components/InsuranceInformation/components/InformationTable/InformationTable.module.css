@@ -1,0 +1,43 @@
+#table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#table-style {
+  border-collapse: collapse;
+  width: 90%;
+}
+#insruance-extra-row {
+  color: red;
+  padding: 0;
+  height: 500px;
+}
+
+#table-headings,
+#table-benefits td {
+  border-bottom: 1px solid #d6d6d6;
+  padding: 1.4vw;
+  font-weight: 700;
+  font-size: 1.25vw;
+  text-align: center;
+}
+
+#table-headings th {
+  padding: 0 1.4vw 1.4vw 1.4vw;
+}
+
+#table-benefits td:first-child {
+  text-align: left;
+}
+
+#full-cover-logo {
+  background-color: #0076be;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1vw;
+  padding: 0 1.4vw 0 1.4vw;
+}

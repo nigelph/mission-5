@@ -2,51 +2,5 @@
   display: flex;
   flex-direction: column;
   margin-top: auto;
-}
-
-.footer-menu-container {
-  display: flex;
-  justify-content: center;
-  height: 100%;
   width: 100%;
-  background: #9a9b9c;
-}
-
-#bottom-footer-container {
-  background-color: #363636;
-  color: white;
-  padding: 20px;
-}
-
-.menu-style {
-  color: white;
-  list-style-type: none;
-  padding: 1.5rem 5rem 1.5rem 5rem;
-}
-.menu-style h2 {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.menu-style li {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
-#footer-content-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-}
-#footer-social-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }

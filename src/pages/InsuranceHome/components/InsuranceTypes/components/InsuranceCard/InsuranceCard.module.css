@@ -1,0 +1,74 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 404px;
+  height: 71.5%;
+  border-radius: 11px;
+  background-color: white;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0076be;
+  width: 100%;
+  height: 12.4rem;
+  border-radius: 11px 11px 0 0;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  height: 100%;
+}
+
+.card-body-text {
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+}
+
+.body-description {
+  margin: 1rem 3rem 2rem 3rem;
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: normal;
+}
+
+.card-button-area {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 7rem;
+}
+
+.image-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  background-color: white;
+  height: 70%;
+  width: 35%;
+}
+
+.find-more-button {
+  background-color: black;
+  color: white;
+  border-radius: 52px;
+  height: 3.6rem;
+  width: 15.6rem;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.find-more-button:hover {
+  cursor: pointer;
+}

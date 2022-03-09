@@ -1,0 +1,14 @@
+#quote-button {
+  background-color: #b71234;
+  border: none;
+  border-radius: 52px;
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: white;
+  height: 4rem;
+  width: 18%;
+}
+
+#quote-button:hover {
+  cursor: pointer;
+}

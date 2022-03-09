@@ -1,0 +1,72 @@
+#insurance-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0076be;
+  width: 100%;
+  height: 100%;
+}
+
+#insurance-information-headings {
+  color: white;
+  width: 85%;
+  padding: 2rem 0 2rem 0;
+}
+
+#insurance-information-headings h1 {
+  font-size: 2.4vw;
+}
+
+#insurance-information-headings h4 {
+  font-size: 1.2vw;
+}
+
+#insurance-table-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 85%;
+  height: 100%;
+  border-radius: 43px;
+}
+
+#expand-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+}
+
+#show-expand-button {
+  background: none;
+  border: none;
+  color: #0076be;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.25vw;
+}
+
+#show-expand-button:hover {
+  cursor: pointer;
+}
+
+#quote-button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0 5rem 0;
+}
+
+#arrow-style {
+  margin-left: 0.5rem;
+}
+
+#quote-button-container p {
+  color: white;
+}

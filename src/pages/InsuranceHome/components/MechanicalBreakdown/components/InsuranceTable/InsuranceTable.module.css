@@ -1,0 +1,14 @@
+#table-style {
+  border-collapse: collapse;
+  height: auto;
+  width: 115%;
+}
+
+#table-style th {
+  border: 1px solid #d6d6d6;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: left;
+  padding: 1.3rem;
+  font-size: 1vw;
+}
