@@ -1,8 +1,22 @@
 #button-area-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  gap: 5%;
   padding: 2.5% 0 2.5% 0;
+}
+
+#button-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 5%;
+}
+@media (max-width: 40em) {
+  #button-content-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

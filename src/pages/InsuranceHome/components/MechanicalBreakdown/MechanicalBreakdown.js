@@ -24,7 +24,7 @@ function MechanicalBreakdown() {
                     <button id={style['policy-button']}>Policy Document</button>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

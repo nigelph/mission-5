@@ -7,9 +7,11 @@ import Checklist from '../../../../assets/images/checklist.png'
 function ButtonArea() {
     return (
         <div id={style['button-area-container']}>
-            <BigButton buttonImage={MoneySign} style={{ backgroundColor: 'green' }} buttonTitle='Pre-approved finance' />
-            <BigButton buttonImage={UserImage} style={{ backgroundColor: '#0076BE' }} buttonTitle='Register account' />
-            <BigButton buttonImage={Checklist} style={{ backgroundColor: 'black' }} buttonTitle='Get a quote' />
+            <div id={style['button-content-container']}>
+                <BigButton buttonImage={MoneySign} style={{ backgroundColor: 'green' }} buttonTitle='Pre-approved finance' />
+                <BigButton buttonImage={UserImage} style={{ backgroundColor: '#0076BE' }} buttonTitle='Register account' />
+                <BigButton buttonImage={Checklist} style={{ backgroundColor: 'black' }} buttonTitle='Get a quote' />
+            </div>
         </div>
     )
 }

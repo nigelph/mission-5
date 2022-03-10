@@ -1,8 +1,8 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  width: 404px;
-  height: 71.5%;
+  width: 25rem;
+  height: 36rem;
   border-radius: 11px;
   background-color: white;
 }
@@ -14,7 +14,7 @@
   align-items: center;
   background-color: #0076be;
   width: 100%;
-  height: 12.4rem;
+  height: 100%;
   border-radius: 11px 11px 0 0;
 }
 .card-body {
@@ -25,6 +25,7 @@
   color: black;
   text-align: center;
   height: 100%;
+  width: 100%;
 }
 
 .card-body-text {
@@ -65,8 +66,9 @@
   border-radius: 52px;
   height: 3.6rem;
   width: 15.6rem;
-  font-size: 19px;
+  font-size: clamp(1rem, 1.25vw, 2rem);
   font-weight: 700;
+  border: none;
 }
 
 .find-more-button:hover {

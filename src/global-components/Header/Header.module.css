@@ -21,4 +21,34 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  gap: 1rem;
+}
+
+#account-links a,
+#turners-phone a,
+#turners-find-us a,
+#chinese-link a {
+  text-decoration: none;
+  font-weight: 580;
+  color: black;
+}
+
+#account-links a:hover,
+#turners-phone a:hover,
+#turners-find-us a:hover,
+.grey-icon:hover {
+  text-decoration: none;
+  font-weight: 580;
+  color: #b71234;
+}
+#account-links a {
+  color: #0076be;
+}
+
+#account-links span {
+  font-style: italic;
+}
+
+#chinese-link a {
+  color: #b71234;
 }

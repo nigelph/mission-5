@@ -1,23 +1,24 @@
 import React from 'react'
 import style from './Navbar.module.css'
-
+import Arrow from '../../assets/images/arrow.png'
 function Navbar() {
     return (
         <nav id={style['nav-container']}>
-            <ul id={style['nav-list']}>
+            <div id={style['nav-content']}>
+                <ul id={style['nav-list-left']}>
+                    <li>Find a Car<img src={Arrow} /></li>
+                    <li>How to Buy<img src={Arrow} /></li>
+                    <li>Sell your Car<img src={Arrow} /></li>
+                    <li>Finance & Insurance<img src={Arrow} /></li>
+                    <li>Careers<img src={Arrow} /></li>
+                </ul>
 
-                <li>Find a Car</li>
-                <li>How to Buy</li>
-                <li>Sell your Car</li>
-                <li>Finance & Insurance</li>
-                <li>Careers</li>
-                <li>Auctions & Events</li>
-                <li>Services & Information</li>
-
-
-
-            </ul>
-        </nav>
+                <ul id={style['nav-list-right']}>
+                    <li>Auctions & Events<img src={Arrow} /></li>
+                    <li>Services & Information<img src={Arrow} /></li>
+                </ul >
+            </div>
+        </nav >
     )
 }
 

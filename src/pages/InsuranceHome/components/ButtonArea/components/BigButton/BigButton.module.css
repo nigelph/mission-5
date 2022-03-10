@@ -2,7 +2,7 @@
   border-style: none;
   border-radius: 11px;
   color: white;
-  width: 16%;
+  width: 15.5rem;
 }
 
 .button-inner {
@@ -20,4 +20,10 @@
 
 .button-style:hover {
   cursor: pointer;
+}
+
+@media (max-width: 40em) {
+  .button-style {
+    width: 50%;
+  }
 }

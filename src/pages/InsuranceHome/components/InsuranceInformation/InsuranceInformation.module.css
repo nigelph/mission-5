@@ -14,11 +14,11 @@
 }
 
 #insurance-information-headings h1 {
-  font-size: 2.4vw;
+  font-size: clamp(1rem, 2.4vw, 5rem);
 }
 
 #insurance-information-headings h4 {
-  font-size: 1.2vw;
+  font-size: clamp(1rem, 1.2vw, 5rem);
 }
 
 #insurance-table-container {
@@ -46,7 +46,7 @@
   color: #0076be;
   text-decoration: underline;
   font-weight: 700;
-  font-size: 1.25vw;
+  font-size: clamp(0.5rem, 1.25vw, 2rem);
 }
 
 #show-expand-button:hover {
@@ -69,4 +69,5 @@
 
 #quote-button-container p {
   color: white;
+  font-size: clamp(0.5rem, 1vw, 1rem);
 }

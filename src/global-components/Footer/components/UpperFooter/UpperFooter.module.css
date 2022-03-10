@@ -31,3 +31,9 @@
   font-weight: 400;
   margin-bottom: 5px;
 }
+
+@media (max-width: 70em) {
+  .footer-menu-container {
+    display: none;
+  }
+}

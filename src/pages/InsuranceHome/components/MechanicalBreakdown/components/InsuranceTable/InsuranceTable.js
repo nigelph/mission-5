@@ -3,7 +3,7 @@ import style from './InsuranceTable.module.css'
 
 function InsuranceTable() {
     return (
-        <div>
+        <div id={style['table-container']}>
             <table id={style['table-style']}>
                 <tr>
                     <th>Comprehensive cover for mechanical and electrical breakdown</th>
