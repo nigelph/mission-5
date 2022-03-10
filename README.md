@@ -12,7 +12,7 @@ This is a collaborative project of two between Nigel Phan (Developer) and Stephe
 * ReactJS
 
 ### Backend ###
-* test
+* NONE AT THE MOMENT
 
 ## Continuous Integration Pipeline ##
 
